@@ -1,0 +1,45 @@
+{
+  // Configurações do editor de código
+  "editor.wordWrap": "on",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 30,
+  "editor.tabSize": 2,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.minimap.enabled": false,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "files.autoSave": "afterDelay",
+  "editor.tabCompletion": "on",
+
+  // Configurações do explorador de arquivos
+  "explorer.compactFolders": false,
+
+  // Configurações do ambiente de trabalho
+  "workbench.editor.enablePreview": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Omni",
+
+  // Configurações do Prettier (um formatador de código)
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.enable": true,
+  "prettier.singleQuote": false,
+  "prettier.tabWidth": 2,
+  "prettier.semi": true,
+
+  // Configurações do terminal integrado
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.profiles.windows": {
+    "Git Bash": {
+      "source": "Git Bash"
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  // Configurações do modo zen (modo de foco)
+  "zenMode.hideActivityBar": true,
+  "zenMode.silentNotifications": true,
+  "zenMode.fullScreen": false,
+  "zenMode.centerLayout": false,
+  "zenMode.hideLineNumbers": false,
+  "zenMode.showTabs": "single"
+}

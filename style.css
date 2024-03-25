@@ -1,0 +1,74 @@
+/* Reset de margens e preenchimentos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Estilo para o corpo do documento */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #ccc;
+}
+
+/* Estilo para o contêiner principal */
+.agenda-contatos {
+  width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+/* Estilo para os campos do formulário */
+.agenda-contatos form label,
+.agenda-contatos form input,
+.agenda-contatos form button {
+  display: block;
+  width: calc(100% - 20px);
+  margin: 0 auto 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Estilo para o botão do formulário */
+.agenda-contatos form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.agenda-contatos form button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilo para a tabela de contatos */
+.agenda-contatos table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.agenda-contatos th,
+.agenda-contatos td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+.agenda-contatos thead th {
+  background-color: #f2f2f2;
+}
+
+/* Estilo para o rodapé */
+.agenda-contatos footer {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #777;
+}

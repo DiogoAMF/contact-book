@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Formulário de Contato</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="agenda-contatos">
+      <header>
+        <h1>Meus Contatos</h1>
+      </header>
+      <form id="formContato">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome-add" name="nome" required />
+        <label for="celular">Número de Celular:</label>
+        <input
+          type="tel"
+          name="celular"
+          id="numero-add"
+          pattern="[0-9]{11}"
+          required
+        />
+        <button type="submit">Cadastrar</button>
+      </form>
+      <table>
+        <thead>
+          <tr>
+            <th>Nome:</th>
+            <th>Número:</th>
+          </tr>
+        </thead>
+        <tbody id="tabelaContatos"></tbody>
+      </table>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
